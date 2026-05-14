@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "991215068881",
+    "firebase_url": "https://rifavolcanes-default-rtdb.firebaseio.com",
+    "project_id": "rifavolcanes",
+    "storage_bucket": "rifavolcanes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991215068881:android:f7aa31a87add4b552a47f0",
+        "android_client_info": {
+          "package_name": "club.studio.clubstudiohq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991215068881-6rgfu47vpmcjtuphft9ijs5q4dv7ti8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjt5oqCVAx8s57B8zwKER6D_ZiR7AfFMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991215068881-6rgfu47vpmcjtuphft9ijs5q4dv7ti8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991215068881:android:dfa8e905af04f1c32a47f0",
+        "android_client_info": {
+          "package_name": "club.studio.hq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991215068881-6rgfu47vpmcjtuphft9ijs5q4dv7ti8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjt5oqCVAx8s57B8zwKER6D_ZiR7AfFMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991215068881-6rgfu47vpmcjtuphft9ijs5q4dv7ti8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

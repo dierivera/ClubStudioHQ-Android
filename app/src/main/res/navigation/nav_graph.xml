@@ -1,0 +1,43 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tournamentListFragment">
+
+    <fragment
+        android:id="@+id/tournamentListFragment"
+        android:name="club.studio.clubstudiohq.ui.TournamentListFragment"
+        android:label="Torneos">
+        <action
+            android:id="@+id/action_to_gameSetup"
+            app:destination="@id/gameSetupFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameSetupFragment"
+        android:name="club.studio.clubstudiohq.ui.GameSetupFragment"
+        android:label="Configurar Partido">
+        <argument android:name="tournamentId" app:argType="string" />
+        <argument android:name="tournamentName" app:argType="string" />
+        <action
+            android:id="@+id/action_to_liveGame"
+            app:destination="@id/liveGameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/liveGameFragment"
+        android:name="club.studio.clubstudiohq.ui.LiveGameFragment"
+        android:label="Partido en Vivo">
+        <argument android:name="gameId" app:argType="string" />
+        <argument android:name="players" app:argType="club.studio.clubstudiohq.data.Player[]" />
+        <action
+            android:id="@+id/action_to_summary"
+            app:destination="@id/gameSummaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameSummaryFragment"
+        android:name="club.studio.clubstudiohq.ui.GameSummaryFragment"
+        android:label="Resumen del Partido">
+        <argument android:name="gameId" app:argType="string" />
+    </fragment>
+</navigation>
